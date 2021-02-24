@@ -55,16 +55,99 @@
 .main-top {
   height: 100px;
   padding: 0 40px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.current-room {
+  font-size: 24px;
+  color: #333;
+  margin-top: 36px;
+}
+
+.end-room-btn {
+  margin-top: 40px;
+}
+
+.end-room-btn a{
+  color: darkred;
+  text-decoration: none;
+  border: 1px solid darkred;
+  padding: 20px;
 }
 
 .main-center {
   background-color: #FAFAFA;
   height: calc(100vh - 190px);
   padding: 46px 40px 0;
+  overflow: scroll;
+}
+
+.upper-message {
+  display: flex;
+}
+
+.massage-user {
+  font-size: 16px;
+  color: #434A54;
+}
+
+.date {
+  font-size: 12px;
+  color: #999;
+  padding-left: 10px;
+}
+
+.lower-message {
+  margin-top: 10px;
+}
+
+.message-content {
+  font-size: 14px;
+  color: #434A54;
+  margin-bottom: 40px;
 }
 
 .main-bottom {
   background-color: #DDDDDD;
   height: 90px;
   padding: 20px 40px;
+  display: flex;
+}
+
+.form-input {
+  background-color: white;
+  width: 100%;
+  display: flex;
+}
+
+.form-content {
+  padding-left: 10px;
+  height: 50px;
+  width: 100%;
+  border: none;
+}
+
+.form-submit {
+  background-color: #38AEF0;
+  font-size: 16px;
+  color: white;
+  padding: 0 20px;
+  height: 50px;
+  border: none;
+  margin-left: 15px;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
 }
